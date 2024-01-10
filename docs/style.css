@@ -35,7 +35,8 @@ header {
 	cursor: pointer;
 }
 
-.user-link a {
+.user-link
+ a {
 	color: blue;
 	text-decoration: none;
 	margin-left: 10px;
@@ -92,6 +93,7 @@ header {
 	background-color: #f9f9f9
 	padding: 20px;
 	border: 1px solid #ddd;
+	text-align: center;
 }
 
 .fact-sheet h3 {
@@ -100,11 +102,13 @@ header {
 	background-color: black;
 	color: white;
 	padding: 5px 10px;
+	text-align: center;
 }
 
 .fact-sheet ul {
 	list-style-type: disc;
 	padding-left: 20px;
+	text-align: left;	
 }
 
 .right-content h1 {
@@ -133,6 +137,6 @@ header {
 footer {
 	background-color: #333;
 	color: white;
-	text-align: center;
+	text-align: left;
 	padding: 10px;
 }
